@@ -1,0 +1,89 @@
+Testing /companies endpoint
+--------------------------------------------
+POST /companies
+{
+  "message": "Company added successfully"
+}
+
+--------------------------------------------
+GET /companies
+[
+  {
+    "address": "123 Test St",
+    "company_code": "C001",
+    "contact": "Test Contact",
+    "name": "Test Company"
+  }
+]
+
+--------------------------------------------
+PUT /companies
+{
+  "message": "Company updated successfully"
+}
+
+--------------------------------------------
+DELETE /companies
+{
+  "message": "Company deleted successfully"
+}
+
+--------------------------------------------
+Testing /vehicles endpoint
+--------------------------------------------
+POST /vehicles
+{
+  "message": "Vehicle added successfully"
+}
+
+--------------------------------------------
+GET /vehicles
+[
+  {
+    "brand": "Test Brand",
+    "company_code": "C001",
+    "fuel_type": "Diesel",
+    "model": "Test Model",
+    "plate": "ONT 456"
+  }
+]
+
+--------------------------------------------
+PUT /vehicles
+{
+  "message": "Vehicle updated successfully"
+}
+
+--------------------------------------------
+DELETE /vehicles
+
+--------------------------------------------
+Testing /fuel_records endpoint
+--------------------------------------------
+POST /fuel_records
+{
+  "message": "Fuel record added successfully"
+}
+
+--------------------------------------------
+GET /fuel_records
+[
+  {
+    "litres": "50",
+    "plate": "ONT 456",
+    "price_per_litre": "1.50",
+    "total_price": "75.00"
+  }
+]
+
+--------------------------------------------
+PUT /fuel_records
+{
+  "message": "Fuel record updated successfully"
+}
+
+--------------------------------------------
+DELETE /fuel_records
+
+--------------------------------------------
+API Tests Completed!

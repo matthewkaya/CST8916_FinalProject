@@ -1,0 +1,30 @@
+INFO     test_app:test_app.py:49 Data files have been cleared before starting tests.
+INFO     test_app:test_app.py:54 Testing CRUD operations for /companies
+INFO     test_app:test_app.py:58 Adding a new company
+DEBUG    test_app:test_app.py:60 POST /companies response: {'message': 'Company added successfully'}
+INFO     test_app:test_app.py:64 Retrieving all companies
+DEBUG    test_app:test_app.py:66 GET /companies response: [{'address': '123 Test St', 'company_code': 'C001', 'contact': 'Test Contact', 'name': 'Test Company'}]
+INFO     test_app:test_app.py:72 Updating the company
+DEBUG    test_app:test_app.py:74 PUT /companies response: {'message': 'Company updated successfully'}
+INFO     test_app:test_app.py:78 Deleting the company
+DEBUG    test_app:test_app.py:80 DELETE /companies response: {'message': 'Company deleted successfully'}
+INFO     test_app:test_app.py:49 Data files have been cleared before starting tests.
+INFO     test_app:test_app.py:85 Testing CRUD operations for /vehicles
+INFO     test_app:test_app.py:89 Adding a new vehicle
+DEBUG    test_app:test_app.py:91 POST /vehicles response: {'message': 'Vehicle added successfully'}
+INFO     test_app:test_app.py:95 Retrieving all vehicles
+DEBUG    test_app:test_app.py:97 GET /vehicles response: [{'brand': 'Test Brand', 'company_code': 'C001', 'fuel_type': 'Diesel', 'model': 'Test Model', 'plate': 'ONT 456'}]
+INFO     test_app:test_app.py:103 Updating the vehicle
+DEBUG    test_app:test_app.py:105 PUT /vehicles response: {'message': 'Vehicle updated successfully'}
+INFO     test_app:test_app.py:109 Deleting the vehicle
+DEBUG    test_app:test_app.py:111 DELETE /vehicles response: {'message': 'Vehicle deleted successfully'}
+INFO     test_app:test_app.py:49 Data files have been cleared before starting tests.
+INFO     test_app:test_app.py:116 Testing CRUD operations for /fuel_records
+INFO     test_app:test_app.py:120 Adding a new fuel record
+DEBUG    test_app:test_app.py:122 POST /fuel_records response: {'message': 'Fuel record added successfully'}
+INFO     test_app:test_app.py:126 Retrieving all fuel records
+DEBUG    test_app:test_app.py:128 GET /fuel_records response: [{'litres': '50', 'plate': 'ONT 456', 'price_per_litre': '1.50', 'total_price': '75.00'}]
+INFO     test_app:test_app.py:134 Updating the fuel record
+DEBUG    test_app:test_app.py:136 PUT /fuel_records response: {'message': 'Fuel record updated successfully'}
+INFO     test_app:test_app.py:140 Deleting the fuel record
+DEBUG    test_app:test_app.py:142 DELETE /fuel_records response: {'message': 'Fuel record deleted successfully'}

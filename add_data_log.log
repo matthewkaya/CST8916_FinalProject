@@ -1,0 +1,19 @@
+Adding a company
+{
+  "message": "Company added successfully"
+}
+
+--------------------------------------------
+Adding a vehicle
+{
+  "error": "Vehicle plate already exists"
+}
+
+--------------------------------------------
+Adding a fuel record
+{
+  "message": "Fuel record added successfully"
+}
+
+--------------------------------------------
+Data addition completed!
